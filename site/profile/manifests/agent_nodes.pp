@@ -11,4 +11,4 @@ class profile::agent_nodes {
     ip => ‘172.18.0.2’,
   }
 }
-}
+
