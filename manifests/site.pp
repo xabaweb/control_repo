@@ -9,6 +9,9 @@ node 'master.puppet.vm' {
     content => "Welcome to ${fqdn}\n",
   }
 }
+node 'minetest.puppet.vm' {
+  include role::minecrat_server
+}
 
 node /^web/ {
   include role::app_server
